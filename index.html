@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETIREMENT CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="heading">
+        <h1>Retirement Calculator</h1>
+    </div>
+    <section>
+        <p>How old are you?</p>
+        <input type="number" id="age">
+        <br>
+        <br>
+        <br>
+
+        <p>At what age do you want to retire?</p>
+        <input type="number" id="retirementAge">
+        <br>
+        <br>
+        <button class="btn" onclick="retirementYear()">Calculate</button>
+        <br>
+        <br>
+        <br>
+        <div class="test">
+            <h1>Results</h1>
+        </div>
+        <p class="here" id="finalScoreText"></p>
+        <p class="here" id="retire"></p>
+        <p class="here" id="result"></p>
+        <script src="main.js"></script>
+    </section>
+</body>
+</html>
